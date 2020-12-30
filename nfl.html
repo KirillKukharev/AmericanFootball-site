@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Американский футбол</title>
+    <link rel="stylesheet" href="assets/css/nfl.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="ulNavbar" id="dropdownClick">
+        <li class="navLeft">
+          <a href="index.html"><img src="assets/media/SYMBOL.png" alt="Error"/></a>
+        </li>
+        <li class="dropdownicon">
+          <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
+        </li>
+        <li class="navRight">
+          <a href="contact.html" class="boxF">Связь</a>
+        </li>
+        <li class="navRight">
+          <a class="boxE" href="references.html">Ссылки</a>
+        </li>
+        <li class="navRight"><a class="boxD active" href="nfl.html">НФЛ</a></li>
+        <li class="navRight"><a class="boxC" href="rules.html">Правила</a></li>
+        <li class="navRight">
+          <a class="boxB" href="position.html">Позиции</a>
+        </li>
+        <li class="navRight"><a class="boxA" href="index.html">История</a></li>
+      </ul>
+    </nav>
+    <div class="box6">
+      <div class="container">
+        <div class="section5">
+          <div class="moreHeading">
+            <h1 id="nfl">Н Ф Л</h1>
+            <hr class="hrStyling" />
+          </div>
+          <div
+            class="nflParagraph"
+            style="background: url(assets/media/NFLballandhelmet.png) no-repeat center;background-size:150vh;"
+          >
+            <p>
+                <b>Национальная футбольная лига (НФЛ):</b> это профессиональная лига американского футбола, <span class="textcolor">состоящая из 32 команд</span>, разделенных поровну между <span class="textcolor">Национальной футбольной конференцией (NFC)</span> и <span class="textcolor">Американской футбольной конференцией (AFC)</span>. НФЛ является одной из четырех основных профессиональных спортивных лиг в Северной Америке и самым высоким профессиональным уровнем американского футбола в мире. <span class="textcolor">17-недельный</span> регулярный сезон НФЛ длится с начала сентября до конца декабря, каждая команда играет по <span class="textcolor">16 игр</span>. После окончания сезона <span class="textcolor">12 лучших команд</span> играют по системе плей-офф. Финал плей-офф — <span class="textcolor">Супербоул</span> — самое популярное спортивное событие США.
+            </p>
+            <img
+              class="circle"
+              title="Self Made Logo"
+              src="assets/media/selfmadelogo.jpg"
+              alt="error"
+            />
+            <p>
+                НФЛ была сформирована в 1920 году как <span class="textcolor">Американская профессиональная футбольная ассоциация (APFA)</span>, а затем переименовала себя в Национальную футбольную лигу сезона 1922 года. После первоначального определения чемпионов в турнирной таблице на конец сезона в 1933 году была внедрена система плей-офф, кульминацией которой стала <span class="textcolor">игра чемпионата НФЛ</span> до 1966 года. 
+                После соглашения о слиянии НФЛ с Американской футбольной лигой (АФЛ), <span class="textcolor">Супербоул</span> был впервые проведен в 1967 году для определения чемпиона между лучшими командами из <span class="textcolor">двух лиг</span> и оставался финальной игрой каждого сезона НФЛ с момента слияния в <span class="textcolor">1970 году</span>. Сегодня НФЛ имеет <span class="textcolor">самую высокую среднюю посещаемость (67 591)</span> среди всех профессиональных спортивных лиг в мире и является самой популярной спортивной лигой в <span class="textcolor">Соединенных Штатах</span>. Супербоул также является одним из крупнейших клубных спортивных событий в мире где на отдельные игры приходится множество самых популярных телевизионных программ в истории Америки, и все они занимают 5 лучших результатов Nielsen среди самых популярных в США телевизионных трансляций в 2015 году.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Iframe">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/4DfchhaTq_A"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p><b>&copy; Кухарев Кирилл 2020</b></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "ulNavbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "ulNavbar";
+        }
+      }
+    </script>
+  </body>
+</html>
